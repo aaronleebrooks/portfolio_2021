@@ -22,8 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <AmplifySignOut />
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
