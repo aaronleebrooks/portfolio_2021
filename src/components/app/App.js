@@ -1,8 +1,9 @@
 import styles from './index.modules.css';
+import cx from 'classnames';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <header className="App-header">
         <p>
           Aaron Brooks

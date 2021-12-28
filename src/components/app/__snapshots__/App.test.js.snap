@@ -2,9 +2,7 @@
 
 exports[`renders learn react link 1`] = `
 <div>
-  <div
-    class="App"
-  >
+  <div>
     <header
       class="App-header"
     >
