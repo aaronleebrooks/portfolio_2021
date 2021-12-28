@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders with props 1`] = `
+<div>
+  <a
+    class="link"
+    rel="noreferrer"
+    target="_blank"
+  >
+    test element
+  </a>
+</div>
+`;

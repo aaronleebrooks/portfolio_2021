@@ -15,17 +15,24 @@ exports[`App renders 1`] = `
         class="navSection"
       >
         <a
-          class="navButton headerText smallHeaderText"
+          class="link navButton headerText smallHeaderText"
+          href="#about-me"
+          rel="noreferrer"
+          target="_blank"
         >
           About Me
         </a>
         <a
-          class="navButton headerText smallHeaderText"
+          class="link navButton headerText smallHeaderText"
+          rel="noreferrer"
+          target="_blank"
         >
           Projects
         </a>
         <a
-          class="navButton headerText smallHeaderText"
+          class="link navButton headerText smallHeaderText"
+          rel="noreferrer"
+          target="_blank"
         >
           Contact Me
         </a>
@@ -33,7 +40,7 @@ exports[`App renders 1`] = `
     </div>
     <div
       class="root"
-      id=""
+      id="about-me"
     >
       <div
         class="textContainer"
@@ -49,9 +56,9 @@ exports[`App renders 1`] = `
           I do things that are good and cool.
         </span>
         <a
-          class="resumeBtn"
-          download="resume.pdf"
+          class="link resumeBtn"
           href="resume.pdf"
+          rel="noreferrer"
           target="_blank"
         >
           My Resume 

@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Link from "../Link";
 import styles from "./index.module.css";
 import cx from "classnames";
 
@@ -26,15 +26,15 @@ function Header() {
     <div className={theme.root}>
       <span className={theme.logo}>Aaron Brooks</span>
       <span className={theme.navigation}>
-        <Button className={theme.linkButton}>
+        <Link className={theme.linkButton} href="#about-me">
           About Me
-        </Button>
-        <Button className={theme.linkButton}>
+        </Link>
+        <Link className={theme.linkButton}>
           Projects
-        </Button>
-        <Button className={theme.linkButton}>
+        </Link>
+        <Link className={theme.linkButton}>
           Contact Me
-        </Button>
+        </Link>
       </span>
     </div>
   );

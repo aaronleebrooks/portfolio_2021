@@ -1,6 +1,6 @@
 import styles from "./index.module.css";
 import cx from "classnames";
-import Button from "../Button";
+import Link from "../Link";
 import ResumePdf from "../../assets/pdf/resume.pdf";
 
 
@@ -35,11 +35,13 @@ const theme = {
 
 function AboutMe() {
   return (
-    <div className={theme.root} id="">
+    <div className={theme.root} id="about-me">
       <div className={theme.textContainer}>
         <span className={theme.subText}>Words, Words, Words</span>
         <span className={theme.mainText}>I do things that are good and cool.</span>
-        <a className={theme.resumeBtn} href={ResumePdf} target="_blank" download="resume.pdf">My Resume <span className={theme.downloadIcon} /></a>
+        <Link className={theme.resumeBtn} href={ResumePdf} download="resume.pdf">
+          My Resume <span className={theme.downloadIcon} />
+        </Link>
       </div>
       <div className={theme.photoContainer}>
         <img className={theme.photo} alt="me" src="https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp" />
