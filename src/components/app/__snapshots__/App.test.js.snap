@@ -2,25 +2,6 @@
 
 exports[`renders learn react link 1`] = `
 <div>
-  <div>
-    <header
-      class="App-header"
-    >
-      <p>
-        Aaron Brooks
-      </p>
-      <p>
-        Software Engineer
-      </p>
-      <a
-        class="App-link"
-        href="https://reactjs.org"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+  <div />
 </div>
 `;
