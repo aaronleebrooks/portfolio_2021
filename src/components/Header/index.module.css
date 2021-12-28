@@ -1,0 +1,24 @@
+.headerBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navSection {
+    display: flex;
+}
+
+.headerText {
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.42;
+    color: rgb(22, 28, 45);
+}
+
+.largeHeaderText {
+    font-size: 1.5rem;
+}
+
+.smallHeaderText {
+    font-size: 15px;
+}

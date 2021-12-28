@@ -2,25 +2,33 @@
 
 exports[`Header renders 1`] = `
 <div>
-  <div>
-    <span>
+  <div
+    class="headerBar"
+  >
+    <span
+      class="headerLogo headerText largeHeaderText"
+    >
       Aaron Brooks
     </span>
-    <button
-      class="button resume"
+    <span
+      class="navSection"
     >
-      Resume
-    </button>
-    <button
-      class="button"
-    >
-      Demos
-    </button>
-    <button
-      class="button"
-    >
-      Contact Me
-    </button>
+      <button
+        class="button headerText smallHeaderText"
+      >
+        Resume
+      </button>
+      <button
+        class="button headerText smallHeaderText"
+      >
+        Demos
+      </button>
+      <button
+        class="button headerText smallHeaderText"
+      >
+        Contact Me
+      </button>
+    </span>
   </div>
 </div>
 `;
