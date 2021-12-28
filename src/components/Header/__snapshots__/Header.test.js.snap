@@ -6,13 +6,19 @@ exports[`Header renders 1`] = `
     <span>
       Aaron Brooks
     </span>
-    <button>
+    <button
+      class="button resume"
+    >
       Resume
     </button>
-    <button>
+    <button
+      class="button"
+    >
       Demos
     </button>
-    <button>
+    <button
+      class="button"
+    >
       Contact Me
     </button>
   </div>

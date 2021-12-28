@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       <span>Aaron Brooks</span>
-      <Button>
+      <Button className="resume">
         Resume
       </Button>
       <Button>
