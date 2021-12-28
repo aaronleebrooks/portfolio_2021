@@ -21,8 +21,9 @@ exports[`AboutMe renders 1`] = `
       </span>
       <a
         class="link resumeBtn"
+        download="resume.pdf"
         href="resume.pdf"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
       >
         My Resume 

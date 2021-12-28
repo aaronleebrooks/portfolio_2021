@@ -4,8 +4,7 @@ exports[`Link renders with props 1`] = `
 <div>
   <a
     class="link"
-    rel="noreferrer"
-    target="_blank"
+    rel="noopener noreferrer"
   >
     test element
   </a>

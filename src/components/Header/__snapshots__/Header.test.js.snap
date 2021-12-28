@@ -16,22 +16,19 @@ exports[`Header renders 1`] = `
       <a
         class="link navButton headerText smallHeaderText"
         href="#about-me"
-        rel="noreferrer"
-        target="_blank"
+        rel="noopener noreferrer"
       >
         About Me
       </a>
       <a
         class="link navButton headerText smallHeaderText"
-        rel="noreferrer"
-        target="_blank"
+        rel="noopener noreferrer"
       >
         Projects
       </a>
       <a
         class="link navButton headerText smallHeaderText"
-        rel="noreferrer"
-        target="_blank"
+        rel="noopener noreferrer"
       >
         Contact Me
       </a>

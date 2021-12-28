@@ -17,22 +17,19 @@ exports[`App renders 1`] = `
         <a
           class="link navButton headerText smallHeaderText"
           href="#about-me"
-          rel="noreferrer"
-          target="_blank"
+          rel="noopener noreferrer"
         >
           About Me
         </a>
         <a
           class="link navButton headerText smallHeaderText"
-          rel="noreferrer"
-          target="_blank"
+          rel="noopener noreferrer"
         >
           Projects
         </a>
         <a
           class="link navButton headerText smallHeaderText"
-          rel="noreferrer"
-          target="_blank"
+          rel="noopener noreferrer"
         >
           Contact Me
         </a>
@@ -57,8 +54,9 @@ exports[`App renders 1`] = `
         </span>
         <a
           class="link resumeBtn"
+          download="resume.pdf"
           href="resume.pdf"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           My Resume 

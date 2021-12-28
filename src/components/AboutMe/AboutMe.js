@@ -39,7 +39,7 @@ function AboutMe() {
       <div className={theme.textContainer}>
         <span className={theme.subText}>Words, Words, Words</span>
         <span className={theme.mainText}>I do things that are good and cool.</span>
-        <Link className={theme.resumeBtn} href={ResumePdf} download="resume.pdf">
+        <Link className={theme.resumeBtn} href={ResumePdf} download="resume.pdf" target='_blank'>
           My Resume <span className={theme.downloadIcon} />
         </Link>
       </div>
