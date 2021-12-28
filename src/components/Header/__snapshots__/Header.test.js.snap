@@ -14,17 +14,17 @@ exports[`Header renders 1`] = `
       class="navSection"
     >
       <button
-        class="button navButton headerText smallHeaderText"
+        class="navButton headerText smallHeaderText"
       >
         About Me
       </button>
       <button
-        class="button navButton headerText smallHeaderText"
+        class="navButton headerText smallHeaderText"
       >
         Projects
       </button>
       <button
-        class="button navButton headerText smallHeaderText"
+        class="navButton headerText smallHeaderText"
       >
         Contact Me
       </button>

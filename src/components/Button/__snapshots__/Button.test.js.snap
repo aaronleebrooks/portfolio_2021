@@ -2,9 +2,7 @@
 
 exports[`Button renders with props 1`] = `
 <div>
-  <button
-    class="button"
-  >
+  <button>
     test element
   </button>
 </div>

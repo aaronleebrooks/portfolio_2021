@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe renders 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <div
+      class="textContainer"
+    >
+      <span
+        class="text subText"
+      >
+        Words, Words, Words
+      </span>
+      <span
+        class="text mainText"
+      >
+        I do things that are good and cool.
+      </span>
+      <button
+        class="resumeBtn"
+      >
+        My Resume
+      </button>
+    </div>
+    <div
+      class="photoContainer"
+    >
+      <img
+        alt="me"
+        class="photo"
+        src="https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp"
+      />
+    </div>
+  </div>
+</div>
+`;

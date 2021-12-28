@@ -27,9 +27,6 @@
 }
 
 .navButton {
-    background: none;
-    border: none;
-    appearance: none;
     padding: 20px;
     cursor: pointer;
 }
