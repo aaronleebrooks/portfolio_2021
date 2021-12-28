@@ -7,6 +7,15 @@ exports[`App renders 1`] = `
       <span>
         Aaron Brooks
       </span>
+      <button>
+        Resume
+      </button>
+      <button>
+        Demos
+      </button>
+      <button>
+        Contact Me
+      </button>
     </div>
     <div>
       This is a footer
