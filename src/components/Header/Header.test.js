@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Header from './Header';
 
-describe('App', () => {
+describe('Header', () => {
   test('renders', () => {
-    const {container} = render(<App />);
+    const {container} = render(<Header />);
     expect(container).toMatchSnapshot();
   });
 })

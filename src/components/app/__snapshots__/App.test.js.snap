@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders learn react link 1`] = `
+exports[`App renders 1`] = `
 <div>
-  <div />
+  <div>
+    <div>
+      <span>
+        Aaron Brooks
+      </span>
+    </div>
+    <div>
+      This is a footer
+    </div>
+  </div>
 </div>
 `;
