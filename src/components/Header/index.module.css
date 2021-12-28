@@ -1,6 +1,8 @@
 .headerBar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .navSection {
@@ -11,14 +13,24 @@
     font-family: Inter,sans-serif;
     font-weight: 700;
     letter-spacing: -0.5px;
-    line-height: 1.42;
     color: rgb(22, 28, 45);
 }
 
 .largeHeaderText {
     font-size: 1.5rem;
+    line-height: 1.42;
 }
 
 .smallHeaderText {
     font-size: 15px;
+    line-height: 24px;
+}
+
+.navButton {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navButton:hover {
+    color: rgb(73, 95, 239) !important;
 }

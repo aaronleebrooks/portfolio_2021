@@ -15,6 +15,7 @@ const theme = {
     styles.largeHeaderText
   ),
   linkButton: cx(
+    styles.navButton,
     styles.headerText,
     styles.smallHeaderText
   ),
@@ -26,10 +27,10 @@ function Header() {
       <span className={theme.logo}>Aaron Brooks</span>
       <span className={theme.navigation}>
         <Button className={theme.linkButton}>
-          Resume
+          About Me
         </Button>
         <Button className={theme.linkButton}>
-          Demos
+          Projects
         </Button>
         <Button className={theme.linkButton}>
           Contact Me
