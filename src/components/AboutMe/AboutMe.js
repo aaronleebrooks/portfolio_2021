@@ -1,6 +1,8 @@
 import styles from "./index.module.css";
 import cx from "classnames";
 import Button from "../Button";
+import ResumePdf from "../../assets/pdf/resume.pdf";
+
 
 const theme = {
   root: cx(
@@ -25,16 +27,19 @@ const theme = {
   ),
   photo: cx(
     styles.photo
+  ),
+  downloadIcon: cx(
+    styles.downloadIcon
   )
 }
 
 function AboutMe() {
   return (
-    <div className={theme.root}>
+    <div className={theme.root} id="">
       <div className={theme.textContainer}>
         <span className={theme.subText}>Words, Words, Words</span>
         <span className={theme.mainText}>I do things that are good and cool.</span>
-        <Button className={theme.resumeBtn}>My Resume</Button>
+        <a className={theme.resumeBtn} href={ResumePdf} target="_blank" download="resume.pdf">My Resume <span className={theme.downloadIcon} /></a>
       </div>
       <div className={theme.photoContainer}>
         <img className={theme.photo} alt="me" src="https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp" />

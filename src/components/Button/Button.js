@@ -1,11 +1,8 @@
-import cx from 'classnames';
-import styles from './index.module.css';
-
 function Button(props) {
   return (
-    <button className={props.className} onClick={props.onClick}>
+    <a className={props.className} onClick={props.onClick} href={props.href} target={props.target}>
       {props.children}
-    </button>
+    </a>
   );
 }
 

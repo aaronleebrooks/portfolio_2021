@@ -2,8 +2,8 @@
 
 exports[`Button renders with props 1`] = `
 <div>
-  <button>
+  <a>
     test element
-  </button>
+  </a>
 </div>
 `;

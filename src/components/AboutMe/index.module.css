@@ -1,5 +1,4 @@
 .root {
-
     display: flex;
     font-family: Inter,sans-serif;
     padding: 40px;
@@ -22,7 +21,7 @@
     font-size: 0.8125rem;
     line-height: 1.63;
     letter-spacing: 1.63px;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
@@ -33,7 +32,8 @@
 }
 
 .resumeBtn {
-    margin-top: 5%;
+    text-decoration: none;
+    margin-top: 40px;
     cursor: pointer;
     font-size: 13px;
     font-weight: 700;
@@ -59,6 +59,11 @@
     outline: none !important;
 }
 
+.resumeBtn:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(3 3 3 / 14%) 0px 32px 54px;
+}
+
 .photoContainer {
     display: flex;
     justify-content: center;
@@ -67,4 +72,13 @@
 
 .photo {
     width: 25%;
+}
+
+.downloadIcon {
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    background: url("../../assets/svg/download-solid.svg");
+    background-size: 35px 35px;
+    filter: invert(100);
 }

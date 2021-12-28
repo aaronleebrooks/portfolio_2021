@@ -14,25 +14,26 @@ exports[`App renders 1`] = `
       <span
         class="navSection"
       >
-        <button
+        <a
           class="navButton headerText smallHeaderText"
         >
           About Me
-        </button>
-        <button
+        </a>
+        <a
           class="navButton headerText smallHeaderText"
         >
           Projects
-        </button>
-        <button
+        </a>
+        <a
           class="navButton headerText smallHeaderText"
         >
           Contact Me
-        </button>
+        </a>
       </span>
     </div>
     <div
       class="root"
+      id=""
     >
       <div
         class="textContainer"
@@ -47,11 +48,17 @@ exports[`App renders 1`] = `
         >
           I do things that are good and cool.
         </span>
-        <button
+        <a
           class="resumeBtn"
+          download="resume.pdf"
+          href="resume.pdf"
+          target="_blank"
         >
-          My Resume
-        </button>
+          My Resume 
+          <span
+            class="downloadIcon"
+          />
+        </a>
       </div>
       <div
         class="photoContainer"

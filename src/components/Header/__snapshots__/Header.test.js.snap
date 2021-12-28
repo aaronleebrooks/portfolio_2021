@@ -13,21 +13,21 @@ exports[`Header renders 1`] = `
     <span
       class="navSection"
     >
-      <button
+      <a
         class="navButton headerText smallHeaderText"
       >
         About Me
-      </button>
-      <button
+      </a>
+      <a
         class="navButton headerText smallHeaderText"
       >
         Projects
-      </button>
-      <button
+      </a>
+      <a
         class="navButton headerText smallHeaderText"
       >
         Contact Me
-      </button>
+      </a>
     </span>
   </div>
 </div>

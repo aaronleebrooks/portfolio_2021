@@ -4,6 +4,7 @@ exports[`AboutMe renders 1`] = `
 <div>
   <div
     class="root"
+    id=""
   >
     <div
       class="textContainer"
@@ -18,11 +19,17 @@ exports[`AboutMe renders 1`] = `
       >
         I do things that are good and cool.
       </span>
-      <button
+      <a
         class="resumeBtn"
+        download="resume.pdf"
+        href="resume.pdf"
+        target="_blank"
       >
-        My Resume
-      </button>
+        My Resume 
+        <span
+          class="downloadIcon"
+        />
+      </a>
     </div>
     <div
       class="photoContainer"
